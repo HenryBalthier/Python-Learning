@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/helloworld.py" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="660cf858-b567-4795-a50c-c5c31d73b42c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="660cf858-b567-4795-a50c-c5c31d73b42c" name="Default" comment="" />
     <ignored path="Python-Learning.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
