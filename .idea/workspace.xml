@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="660cf858-b567-4795-a50c-c5c31d73b42c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helloworld.py" afterPath="$PROJECT_DIR$/helloworld.py" />
     </list>
     <ignored path="Python-Learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -311,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496655425220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="learning python">
+      <created>1496737570502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496737570502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -350,7 +356,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first change from pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="first change from pycharm" />
+    <MESSAGE value="learning python" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning python" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
