@@ -36,5 +36,31 @@ def log(func):
 def prtdate():
     print('2017-6-6')
 
+
+class Screen(object):
+    @property
+    def width(self):
+        return self._width
+
+    @property
+    def height(self):
+        return self._height
+
+    @property
+    def resolution(self):
+        return self._width * self._height
+
+    @width.setter
+    def width(self, value):
+        self._width = value
+
+    @height.setter
+    def height(self, value):
+        self._height = value
+
 if __name__ == '__main__':
-    prtdate()
+    s = Screen()
+    s.width = 1024
+    s.height = 768
+    print(s.resolution)
+    assert s.resolution == 786432, '1024 * 768 = %d ?' % s.resolution
