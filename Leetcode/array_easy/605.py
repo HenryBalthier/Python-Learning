@@ -16,7 +16,6 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    import timeit
     s = Solution
     flowerbed = [0, 0, 1, 0, 0, 0, 0, 1, 0, 0]
     n = 3
