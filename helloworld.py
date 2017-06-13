@@ -58,9 +58,70 @@ class Screen(object):
     def height(self, value):
         self._height = value
 
+
+def Copy():
+    def valuation():
+        lst1 = ['list', ['llist', '1']]
+        lst2 = lst1
+
+        print('name, id, value')
+        print('lst1, %s, %s' % (id(lst1), lst1))
+        print([id(ele) for ele in lst1])
+        print('lst2, %s, %s' % (id(lst2), lst2))
+        print([id(ele) for ele in lst2])
+        lst1[0] = 'lst2'
+        lst2[1][1] = '2'
+
+        print('name, id, value')
+        print('lst1, %s, %s' % (id(lst1), lst1))
+        print([id(ele) for ele in lst1])
+        print('lst2, %s, %s' % (id(lst2), lst2))
+        print([id(ele) for ele in lst2])
+
+    def lightcopy():
+        import copy
+        lst1 = ['list', ['llist', '1']]
+        lst2 = copy.copy(lst1)
+
+        print('name, id, value')
+        print('lst1, %s, %s' % (id(lst1), lst1))
+        print([id(ele) for ele in lst1])
+        print('lst2, %s, %s' % (id(lst2), lst2))
+        print([id(ele) for ele in lst2])
+        lst1[0] = 'lst2'
+        lst2[1][1] = '2'
+
+        print('name, id, value')
+        print('lst1, %s, %s' % (id(lst1), lst1))
+        print([id(ele) for ele in lst1])
+        print('lst2, %s, %s' % (id(lst2), lst2))
+        print([id(ele) for ele in lst2])
+
+    def deepcopy():
+        import copy
+        lst1 = ['list', ['llist', '1']]
+        lst2 = copy.deepcopy(lst1)
+
+        print('name, id, value')
+        print('lst1, %s, %s' % (id(lst1), lst1))
+        print([id(ele) for ele in lst1])
+        print('lst2, %s, %s' % (id(lst2), lst2))
+        print([id(ele) for ele in lst2])
+        lst1[0] = 'lst2'
+        lst2[1][1] = '2'
+
+        print('name, id, value')
+        print('lst1, %s, %s' % (id(lst1), lst1))
+        print([id(ele) for ele in lst1])
+        print('lst2, %s, %s' % (id(lst2), lst2))
+        print([id(ele) for ele in lst2])
+
+    print('\nvaluation:')
+    valuation()
+    print('\nlightcopy:')
+    lightcopy()
+    print('\ndeepcopy:')
+    deepcopy()
+
 if __name__ == '__main__':
-    s = Screen()
-    s.width = 1024
-    s.height = 768
-    print(s.resolution)
-    assert s.resolution == 786432, '1024 * 768 = %d ?' % s.resolution
+    Copy()
