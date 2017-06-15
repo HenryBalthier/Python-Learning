@@ -5,7 +5,13 @@ class Solution(object):
         :type k: int
         :rtype: bool
         """
-
+        dct = dict()
+        for i, v in enumerate(nums):
+            if v in dct and i - dct[v] <= k:
+                return True
+            else:
+                dct[v] = i
+        return False
 
 
 if __name__ == '__main__':
