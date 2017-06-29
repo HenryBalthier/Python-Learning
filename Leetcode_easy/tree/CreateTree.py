@@ -74,11 +74,11 @@ def Create(lst):
     return tree
 
 if __name__ == '__main__':
-    lst = [3,9,20,None,None,15,7]
+    lst = [1,2,None,3,None,None,None,4]
     tree = Create(lst)
 
     # 广度优先遍历
     breadth_tree(tree)
 
     # 深度优先遍历
-    # depth_tree(tree)
+    depth_tree(tree)
