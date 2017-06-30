@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="660cf858-b567-4795-a50c-c5c31d73b42c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/108.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/110.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/111.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/112.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/226.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/235.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/257.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/404.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/437.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/501.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/543.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/563.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/572.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/617.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leetcode_easy/tree/CreateTree.py" afterPath="$PROJECT_DIR$/Leetcode_easy/tree/CreateTree.py" />
     </list>
@@ -31,68 +35,100 @@
       <file leaf-file-name="CreateTree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/CreateTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="603">
+              <caret line="107" column="33" lean-forward="false" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+              <folding>
+                <element signature="e#167#909#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="108.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/108.py">
+      <file leaf-file-name="235.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/235.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="584">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="54" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="107.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/107.py">
+      <file leaf-file-name="257.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/257.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="622">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="45" selection-end-column="14" />
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="40" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="110.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/110.py">
+      <file leaf-file-name="404.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/404.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="356">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="110" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="111.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/111.py">
+      <file leaf-file-name="437.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/437.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="565">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="49" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="112.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/112.py">
+      <file leaf-file-name="501.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/501.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="40" selection-end-column="14" />
+            <state relative-caret-position="603">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="43" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="226.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/226.py">
+      <file leaf-file-name="543.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/543.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="228">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="563.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/563.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="42" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="572.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/572.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="38" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="617.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/617.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -113,15 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Leetcode/math_easy/453.py" />
-        <option value="$PROJECT_DIR$/Leetcode/math_easy/507.py" />
-        <option value="$PROJECT_DIR$/Leetcode/math_easy/598.py" />
-        <option value="$PROJECT_DIR$/Leetcode/twopointer_easy/28.py" />
-        <option value="$PROJECT_DIR$/Leetcode/twopointer_easy/125.py" />
-        <option value="$PROJECT_DIR$/Leetcode/twopointer_easy/344.py" />
-        <option value="$PROJECT_DIR$/Leetcode/twopointer_easy/345.py" />
-        <option value="$PROJECT_DIR$/Leetcode/string_easy/14.py" />
-        <option value="$PROJECT_DIR$/Leetcode/string_easy/20.py" />
         <option value="$PROJECT_DIR$/Leetcode/string_easy/38.py" />
         <option value="$PROJECT_DIR$/Leetcode/string_easy/58.py" />
         <option value="$PROJECT_DIR$/Leetcode/string_easy/383.py" />
@@ -162,8 +189,17 @@
         <option value="$PROJECT_DIR$/Leetcode_easy/tree/110.py" />
         <option value="$PROJECT_DIR$/Leetcode_easy/tree/111.py" />
         <option value="$PROJECT_DIR$/Leetcode_easy/tree/112.py" />
-        <option value="$PROJECT_DIR$/Leetcode_easy/tree/CreateTree.py" />
         <option value="$PROJECT_DIR$/Leetcode_easy/tree/226.py" />
+        <option value="$PROJECT_DIR$/Leetcode_easy/tree/CreateTree.py" />
+        <option value="$PROJECT_DIR$/Leetcode_easy/tree/235.py" />
+        <option value="$PROJECT_DIR$/Leetcode_easy/tree/257.py" />
+        <option value="$PROJECT_DIR$/Leetcode_easy/tree/404.py" />
+        <option value="$PROJECT_DIR$/Leetcode_easy/tree/437.py" />
+        <option value="$PROJECT_DIR$/Leetcode_easy/tree/501.py" />
+        <option value="$PROJECT_DIR$/Leetcode_easy/tree/543.py" />
+        <option value="$PROJECT_DIR$/Leetcode_easy/tree/563.py" />
+        <option value="$PROJECT_DIR$/Leetcode_easy/tree/572.py" />
+        <option value="$PROJECT_DIR$/Leetcode_easy/tree/617.py" />
       </list>
     </option>
   </component>
@@ -191,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,7 +275,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,8 +298,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.226">
-    <configuration default="false" name="CreateTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.563">
+    <configuration default="false" name="404" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -275,13 +311,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_easy/tree/CreateTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_easy/tree/404.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="107" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="437" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -293,13 +329,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_easy/tree/107.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_easy/tree/437.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="108" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="501" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -311,13 +347,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_easy/tree/108.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_easy/tree/501.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="112" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="543" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -329,13 +365,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_easy/tree/112.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_easy/tree/543.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="226" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="563" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -347,7 +383,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_easy/tree/226.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_easy/tree/563.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -450,19 +486,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.CreateTree" />
-      <item index="1" class="java.lang.String" itemvalue="Python.107" />
-      <item index="2" class="java.lang.String" itemvalue="Python.108" />
-      <item index="3" class="java.lang.String" itemvalue="Python.112" />
-      <item index="4" class="java.lang.String" itemvalue="Python.226" />
+      <item index="0" class="java.lang.String" itemvalue="Python.404" />
+      <item index="1" class="java.lang.String" itemvalue="Python.437" />
+      <item index="2" class="java.lang.String" itemvalue="Python.501" />
+      <item index="3" class="java.lang.String" itemvalue="Python.543" />
+      <item index="4" class="java.lang.String" itemvalue="Python.563" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.226" />
-        <item index="1" class="java.lang.String" itemvalue="Python.112" />
-        <item index="2" class="java.lang.String" itemvalue="Python.CreateTree" />
-        <item index="3" class="java.lang.String" itemvalue="Python.108" />
-        <item index="4" class="java.lang.String" itemvalue="Python.107" />
+        <item index="0" class="java.lang.String" itemvalue="Python.563" />
+        <item index="1" class="java.lang.String" itemvalue="Python.543" />
+        <item index="2" class="java.lang.String" itemvalue="Python.501" />
+        <item index="3" class="java.lang.String" itemvalue="Python.437" />
+        <item index="4" class="java.lang.String" itemvalue="Python.404" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -695,14 +731,21 @@
       <option name="project" value="LOCAL" />
       <updated>1498744464764</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="learning python">
+      <created>1498749681111</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1498749681111</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30170575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -751,70 +794,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Leetcode_easy/twopointer/344.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode_easy/string/14.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode_easy/string/20.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode_easy/string/38.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="36" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode_easy/string/58.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode_easy/string/383.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode_easy/string/434.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode_easy/string/459.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode_easy/string/520.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode_easy/string/521.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1032,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,8 +1054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/107.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="760">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="45" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1102,16 +1078,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/CreateTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="603">
+          <caret line="107" column="33" lean-forward="false" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+          <folding>
+            <element signature="e#167#909#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/226.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="513">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="34" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/235.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="54" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/257.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="40" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/437.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="49" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/501.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="43" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/404.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/543.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/563.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="42" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/572.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="38" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_easy/tree/617.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>

@@ -6,7 +6,7 @@ class TreeNode(object):
 
 # 广度优先/深度优先遍历二叉树
 
-class BinaryTree:
+class preBinaryTree:
     def __init__(self):
         self._root = None
 
@@ -26,7 +26,38 @@ class BinaryTree:
             else:
                 lst.append(tree_node.left)
                 lst.append(tree_node.right)
-                insert_node(lst[p + 1], p + 1, node)
+                if p > (len(lst) -2):
+                    return
+                else:
+                    insert_node(lst[p + 1], p + 1, node)
+        lst.append(self._root)
+        insert_node(self._root, 0, node)
+
+class BinaryTree:
+    def __init__(self):
+        self._root = None
+
+    def make_tree(self, node):
+        self._root = node
+
+    def insert(self, node):
+        # 这里是建立一个完全二叉树
+        lst = []
+        def insert_node(tree_node, p, node):
+            if tree_node.left is None and tree_node.val is not None:
+                tree_node.left = node
+                return
+            elif tree_node.right is None and tree_node.val is not None:
+                tree_node.right = node
+                return
+            else:
+                if tree_node.val is not None:
+                    lst.append(tree_node.left)
+                    lst.append(tree_node.right)
+                if p > (len(lst) -2):
+                    return
+                else:
+                    insert_node(lst[p + 1], p + 1, node)
         lst.append(self._root)
         insert_node(self._root, 0, node)
 
@@ -74,7 +105,7 @@ def Create(lst):
     return tree
 
 if __name__ == '__main__':
-    lst = [1,2,None,3,None,None,None,4]
+    lst = [1,2,None,3,None,4,None]
     tree = Create(lst)
 
     # 广度优先遍历
