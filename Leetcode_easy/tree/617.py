@@ -1,4 +1,4 @@
-Definition for a binary tree node.
+# Definition for a binary tree node.
 class TreeNode(object):
     def __init__(self, x):
         self.val = x
@@ -14,18 +14,20 @@ class Solution(object):
         """
         if not t1 and not t2:
             return None
-        if not t1 and t2:
+        elif not t1 and t2:
             res = TreeNode(t2.val)
             res.left = t2.left
             res.right = t2.right
-        if t1 and not t2:
+        elif t1 and not t2:
             res = TreeNode(t1.val)
             res.left = t1.left
             res.right = t1.right
-        if t1 and t2:
+        elif t1 and t2:
             res = TreeNode(t1.val+t2.val)
             res.left = self.mergeTrees(t1.left,t2.left)
             res.right = self.mergeTrees(t1.right,t2.right)
+        else:
+            res = None
         return res
 
 from Leetcode_easy.tree import CreateTree
