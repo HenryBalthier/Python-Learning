@@ -9,7 +9,6 @@ class Solution(object):
             return ""
         maxlen = 1
         start = 0
-        res = ''
         for i in range(length):
             if i - maxlen >= 1 and s[i-maxlen-1:i+1] == s[i-maxlen-1:i+1][::-1]:
                 start = i-maxlen-1
