@@ -92,6 +92,40 @@ def depth_tree(tree):
         if node.left is not None:
             lst.append(node.left)
 
+
+def display(treenode):
+    lst = []
+    lst.append(treenode)
+    while len(lst) > 0:
+        node = lst.pop()
+        print(node.val)
+        if node.right is not None:
+            lst.append(node.right)
+        if node.left is not None:
+            lst.append(node.left)
+
+
+def display_b(treenode):
+    lst = []
+
+    def traverse(node, p):
+        if node.left is not None:
+            lst.append(node.left)
+        if node.right is not None:
+            lst.append(node.right)
+        if p > (len(lst) -2):
+            return
+        else:
+            traverse(lst[p+1], p+1)
+
+    lst.append(treenode)
+    traverse(treenode, 0)
+
+    # 遍历结果就存在了lst表里
+    for node in lst:
+        print(node.val)
+
+
 def Create(lst):
     tree = BinaryTree()
     # 生成完全二叉树
@@ -104,6 +138,8 @@ def Create(lst):
             tree.insert(node)
     return tree
 
+
+
 if __name__ == '__main__':
     lst = [1,2,None,3,None,4,None]
     tree = Create(lst)
@@ -113,3 +149,5 @@ if __name__ == '__main__':
 
     # 深度优先遍历
     depth_tree(tree)
+
+    display_b(tree._root)
