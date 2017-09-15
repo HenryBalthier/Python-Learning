@@ -11,7 +11,7 @@ class SortAlgo(object):
             for j in range(self.len - i - 1):
                 if nums[j] > nums[j + 1]:
                     nums[j], nums[j + 1] = nums[j + 1], nums[j]
-                    print(nums)
+                    #print(nums)
 
     def s1_maopao_jwj(self):
         nums = self.nums
@@ -19,11 +19,11 @@ class SortAlgo(object):
             for j in range(i, self.len - 1 - i):
                 if nums[j] > nums[j + 1]:
                     nums[j], nums[j + 1] = nums[j + 1], nums[j]
-                    print(nums)
+                    #print(nums)
             for j in range(self.len - 1 - i, i, -1):
                 if nums[j - 1] > nums[j]:
                     nums[j], nums[j - 1] = nums[j - 1], nums[j]
-                    print(nums)
+                    #print(nums)
 
     def s2_xuanze(self):
         nums = self.nums
@@ -33,7 +33,7 @@ class SortAlgo(object):
                 if nums[j] < nums[tmp]:
                     tmp = j
             nums[i], nums[tmp] = nums[tmp], nums[i]
-            print(nums)
+            #print(nums)
 
     def s3_chapai(self):
         nums = self.nums
@@ -47,7 +47,7 @@ class SortAlgo(object):
                 else:
                     break
                 j -= 1
-            print(nums)
+            #print(nums)
 
     def s3_chapai_2f(self):
         pass
@@ -56,15 +56,15 @@ class SortAlgo(object):
         nums = self.nums
         step = self.len // 2
         while step > 0:
-            print('step =', step)
+            #print('step =', step)
             for i in range(step, self.len):
-                print(i - step, i)
+                #print(i - step, i)
                 while i >= step and nums[i - step] > nums[i]:
                     nums[i], nums[i - step] = nums[i - step], nums[i]
                     i -= step
-                    print(nums)
-                    if i >= step:
-                        print(i - step, i)
+                    #print(nums)
+                    #if i >= step:
+                        #print(i - step, i)
             step //= 2
 
     def s4_guibing(self):
@@ -90,7 +90,7 @@ class SortAlgo(object):
                     j += 1
             result += left[i:]
             result += right[j:]
-            print(result)
+            #print(result)
             return result
         devide(nums)
 
@@ -110,7 +110,7 @@ class SortAlgo(object):
 
             if tmp != root:
                 nums[tmp], nums[root] = nums[root], nums[tmp]
-                print(nums)
+                #print(nums)
                 adjustheap(nums, size, tmp)
 
 
@@ -124,7 +124,7 @@ class SortAlgo(object):
         length = self.len
 
         buildheap(nums)
-        print('______________')
+        #print('______________')
         for i in range(length - 1, -1, -1):
             nums[0], nums[i] = nums[i], nums[0]
             adjustheap(nums, i, 0)
@@ -140,10 +140,10 @@ class SortAlgo(object):
                 if nums[j] <= flag:
                     i += 1
                     nums[i], nums[j] = nums[j], nums[i]
-                    print(nums)
+                    #print(nums)
             nums[right], nums[i+1] = nums[i+1], nums[right]
             mid = i+1
-            print('mid', nums[mid],nums)
+            #print('mid', nums[mid],nums)
 
             quicksort(nums, left, mid - 1)
             quicksort(nums, mid + 1, right)
@@ -151,7 +151,7 @@ class SortAlgo(object):
         nums = self.nums
         length = self.len
         quicksort(nums, 0, length - 1)
-        print(nums)
+        #print(nums)
 
     def s7_count(self):
         nums = self.nums
@@ -164,7 +164,7 @@ class SortAlgo(object):
             lst[i+1] += lst[i]
         for i in range(length):
             res[lst[nums[i]-1]-1] = nums[i]
-            print(res)
+            #print(res)
 
     def s8_jishu_tong(self):
         nums = self.nums
@@ -172,14 +172,18 @@ class SortAlgo(object):
         size = 0
         for i in nums:
             size = max(size, len(str(i)))
-        print(size)
-
-
+        for i in range(size):
+            s = [[] for _ in range(10)]
+            for j in nums:
+                s[j // (10 ** i) % 10].append(j)
+                #print(s)
+            nums = [a for b in s for a in b]
+            #print(nums)
 
 
 
 if __name__ == '__main__':
-    total = 10
+    total = 12
     lst = [i for i in range(total)]
     nums = random.sample(lst, total)
     print(nums)
