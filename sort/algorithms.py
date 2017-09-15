@@ -69,6 +69,111 @@ class SortAlgo(object):
 
     def s4_guibing(self):
         nums = self.nums
+        def devide(lst):
+            length = len(lst)
+            if length <= 1:
+                return lst
+            mid = length // 2
+            left = devide(lst[:mid])
+            right = devide(lst[mid:])
+            return merge(left, right)
+
+        def merge(left, right):
+            result = []
+            i, j = 0, 0
+            while i < len(left) and j < len(right):
+                if left[i] <= right[j]:
+                    result.append(left[i])
+                    i += 1
+                else:
+                    result.append(right[j])
+                    j += 1
+            result += left[i:]
+            result += right[j:]
+            print(result)
+            return result
+        devide(nums)
+
+    def s4_guibing2(self):
+        pass
+
+    def s5_duipai(self):
+        def adjustheap(nums, size, root):
+            left = 2 * root + 1
+            right = left + 1
+            tmp = root
+
+            if left < size and nums[tmp] < nums[left]:
+                tmp = left
+            if right < size and nums[tmp] < nums[right]:
+                tmp = right
+
+            if tmp != root:
+                nums[tmp], nums[root] = nums[root], nums[tmp]
+                print(nums)
+                adjustheap(nums, size, tmp)
+
+
+        def buildheap(nums):
+            size = len(nums)
+            for i in range(size//2 - 1, -1, -1):
+                adjustheap(nums, size, i)
+
+
+        nums = self.nums
+        length = self.len
+
+        buildheap(nums)
+        print('______________')
+        for i in range(length - 1, -1, -1):
+            nums[0], nums[i] = nums[i], nums[0]
+            adjustheap(nums, i, 0)
+
+    def s6_kuaipai(self):
+        def quicksort(nums, left, right):
+            if left >= right:
+                return
+
+            flag = nums[right]
+            i = left - 1
+            for j in range(left, right):
+                if nums[j] <= flag:
+                    i += 1
+                    nums[i], nums[j] = nums[j], nums[i]
+                    print(nums)
+            nums[right], nums[i+1] = nums[i+1], nums[right]
+            mid = i+1
+            print('mid', nums[mid],nums)
+
+            quicksort(nums, left, mid - 1)
+            quicksort(nums, mid + 1, right)
+
+        nums = self.nums
+        length = self.len
+        quicksort(nums, 0, length - 1)
+        print(nums)
+
+    def s7_count(self):
+        nums = self.nums
+        length = self.len
+        lst = [0] * length
+        res = [0] * length
+        for i in nums:
+            lst[i] += 1
+        for i in range(length-1):
+            lst[i+1] += lst[i]
+        for i in range(length):
+            res[lst[nums[i]-1]-1] = nums[i]
+            print(res)
+
+    def s8_jishu_tong(self):
+        nums = self.nums
+        length = self.len
+        size = 0
+        for i in nums:
+            size = max(size, len(str(i)))
+        print(size)
+
 
 
 
@@ -79,4 +184,5 @@ if __name__ == '__main__':
     nums = random.sample(lst, total)
     print(nums)
     SA = SortAlgo(nums)
-    SA.s3_chapai_xr()
+    SA.s8_jishu_tong()
+
