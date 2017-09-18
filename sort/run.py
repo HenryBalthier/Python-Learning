@@ -104,7 +104,7 @@ def test10(lst, total):
 
 if __name__ == '__main__':
     import multiprocessing
-    total = 1000
+    total = 100
     lst = [i for i in range(total)]
     nums = random.sample(lst, total)
 

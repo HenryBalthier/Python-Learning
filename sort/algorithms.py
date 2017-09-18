@@ -181,7 +181,6 @@ class SortAlgo(object):
             #print(nums)
 
 
-
 if __name__ == '__main__':
     total = 12
     lst = [i for i in range(total)]
