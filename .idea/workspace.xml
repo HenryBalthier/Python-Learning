@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="660cf858-b567-4795-a50c-c5c31d73b42c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/221.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/279.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/304.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/309.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/322.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/343.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/heap/373.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/heap/451.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/heap/659.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/stack/394.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/stack/402.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode_medium/stack/636.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Python-Learning.iws" />
@@ -28,61 +28,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="221.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/221.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="279.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/279.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="28" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="304.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/304.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="309.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/309.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="29" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="322.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/322.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="54" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="343.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/343.py">
+      <file leaf-file-name="659.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_medium/heap/659.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="22" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="451.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_medium/heap/451.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="373.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_medium/heap/373.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="636.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_medium/stack/636.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="394.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode_medium/stack/394.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="29" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="402.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Leetcode_medium/stack/402.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -114,16 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ali/q1.py" />
-        <option value="$PROJECT_DIR$/ali/q2.py" />
-        <option value="$PROJECT_DIR$/ali/q.py" />
-        <option value="$PROJECT_DIR$/ali/q3.py" />
-        <option value="$PROJECT_DIR$/demo.py" />
-        <option value="$PROJECT_DIR$/didi/q1.py" />
-        <option value="$PROJECT_DIR$/didi/q2.py" />
-        <option value="$PROJECT_DIR$/ali/w1.py" />
-        <option value="$PROJECT_DIR$/Leetcode_medium/array/216.py" />
-        <option value="$PROJECT_DIR$/Leetcode_medium/array/228.py" />
         <option value="$PROJECT_DIR$/Leetcode_medium/hash/347.py" />
         <option value="$PROJECT_DIR$/Leetcode_medium/string/385.py" />
         <option value="$PROJECT_DIR$/Leetcode_medium/stack.py" />
@@ -165,6 +155,16 @@
         <option value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/309.py" />
         <option value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/322.py" />
         <option value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/343.py" />
+        <option value="$PROJECT_DIR$/Leetcode_medium/heap/659.py" />
+        <option value="$PROJECT_DIR$/Leetcode_medium/heap/451.py" />
+        <option value="$PROJECT_DIR$/Leetcode_medium/heap/737.py" />
+        <option value="$PROJECT_DIR$/Leetcode_medium/heap/355.py" />
+        <option value="$PROJECT_DIR$/Leetcode_medium/heap/373.py" />
+        <option value="$PROJECT_DIR$/Leetcode_medium/stack/636‘.py" />
+        <option value="$PROJECT_DIR$/Leetcode_medium/stack/636.py" />
+        <option value="$PROJECT_DIR$/Leetcode_medium/stack/341.py" />
+        <option value="$PROJECT_DIR$/Leetcode_medium/stack/394.py" />
+        <option value="$PROJECT_DIR$/Leetcode_medium/stack/402.py" />
       </list>
     </option>
   </component>
@@ -271,7 +271,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dynamicprogramming" />
+              <option name="myItemId" value="stack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,92 +305,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.343">
-    <configuration default="false" name="279" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.402">
+    <configuration default="false" name="451" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Dell\Anaconda3\envs\py2\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode_medium/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/279.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_medium/heap/451.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="304" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="373" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Dell\Anaconda3\envs\py2\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode_medium/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/304.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_medium/heap/373.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="309" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="636" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Dell\Anaconda3\envs\py2\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode_medium/stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/309.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_medium/stack/636.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="322" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="394" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Dell\Anaconda3\envs\py2\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode_medium/stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/322.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_medium/stack/394.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="343" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="402" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Dell\Anaconda3\envs\py2\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leetcode_medium/stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/343.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode_medium/stack/402.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -531,19 +531,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.q1" />
       <item index="1" class="java.lang.String" itemvalue="Python.Unnamed" />
-      <item index="2" class="java.lang.String" itemvalue="Python.279" />
-      <item index="3" class="java.lang.String" itemvalue="Python.304" />
-      <item index="4" class="java.lang.String" itemvalue="Python.309" />
-      <item index="5" class="java.lang.String" itemvalue="Python.322" />
-      <item index="6" class="java.lang.String" itemvalue="Python.343" />
+      <item index="2" class="java.lang.String" itemvalue="Python.451" />
+      <item index="3" class="java.lang.String" itemvalue="Python.373" />
+      <item index="4" class="java.lang.String" itemvalue="Python.636" />
+      <item index="5" class="java.lang.String" itemvalue="Python.394" />
+      <item index="6" class="java.lang.String" itemvalue="Python.402" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.343" />
-        <item index="1" class="java.lang.String" itemvalue="Python.322" />
-        <item index="2" class="java.lang.String" itemvalue="Python.309" />
-        <item index="3" class="java.lang.String" itemvalue="Python.304" />
-        <item index="4" class="java.lang.String" itemvalue="Python.279" />
+        <item index="0" class="java.lang.String" itemvalue="Python.402" />
+        <item index="1" class="java.lang.String" itemvalue="Python.394" />
+        <item index="2" class="java.lang.String" itemvalue="Python.636" />
+        <item index="3" class="java.lang.String" itemvalue="Python.373" />
+        <item index="4" class="java.lang.String" itemvalue="Python.451" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -579,13 +579,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496648562188</updated>
-    </task>
-    <task id="LOCAL-00009" summary="learning python">
-      <created>1497451502873</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1497451502873</updated>
     </task>
     <task id="LOCAL-00010" summary="learning python">
       <created>1497525315952</created>
@@ -923,7 +916,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505964986531</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="dynamic programming practice">
+      <created>1506095414304</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1506095414326</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -956,7 +956,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12793177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13006397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33217993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1051,55 +1051,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/didi/q1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ali/t1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ali/q3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ali/q1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ali/q2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/didi/q2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1318,7 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,7 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="24" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1350,15 +1297,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/221.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1366,15 +1311,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="28" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/304.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding />
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1382,22 +1325,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="29" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/322.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="779">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="54" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode_medium/dynamicprogramming/343.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_medium/heap/659.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_medium/heap/451.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_medium/heap/355.py" />
+    <entry file="file://$PROJECT_DIR$/Leetcode_medium/heap/373.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_medium/stack/636.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_medium/stack/394.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="29" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode_medium/stack/402.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding />
         </state>
       </provider>
